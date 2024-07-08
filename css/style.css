@@ -86,6 +86,7 @@ button:active {
   background-color: var(--dark-color);
   color: white;
   position: fixed;
+  top: 0;
   left: 0;
   right: 0;
   z-index: 1;
@@ -178,7 +179,7 @@ button:active {
     flex-direction: column;
     position: fixed;
     right: -400px;
-    top: 5svh;
+    top: 4svh;
     transition: 0.3s;
     background-color: var(--dark-color);
     height: 80svh;
@@ -232,8 +233,17 @@ button:active {
   color: var(--gray-color);
   margin-bottom: 0.8rem;
 }
+.original-price {
+  text-decoration: line-through 2px var(--red-color);
+  margin-right: 10px;
+}
+.price {
+  display: flex;
+  /* flex-direction: column; */
+  max-width: max-content;
+}
 .hero-btns {
-  margin-top: 2rem;
+  margin-top: 1rem;
   display: flex;
 }
 .hero-btn1 {
@@ -589,5 +599,56 @@ button:active {
   .sFin-2 p {
     font-size: 0.44rem;
     margin-top: 5px;
+  }
+}
+/* ABOUT US */
+.s7-t {
+  text-align: center;
+}
+.s7-c-w {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%;
+}
+.s7-c {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(247, 247, 255, 0.25);
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+}
+.s7-c img {
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0.3px 0.3px 0.7px rgba(0, 0, 0, 0.006),
+    0.7px 0.7px 1.6px rgba(0, 0, 0, 0.008), 1.4px 1.4px 3px rgba(0, 0, 0, 0.01),
+    2.5px 2.5px 5.4px rgba(0, 0, 0, 0.012),
+    4.6px 4.6px 10px rgba(0, 0, 0, 0.014), 11px 11px 24px rgba(0, 0, 0, 0.02);
+}
+.s7-c h3 {
+  margin-top: 2%;
+}
+.s7-c p:nth-of-type(1) {
+  font-size: 1rem;
+  color: var(--gray-color);
+}
+.s7-c p:nth-of-type(2) {
+  margin: 5% 0;
+  text-align: center;
+}
+.socials {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+@media (max-width: 650px) {
+  .s7-c-w {
+    flex-wrap: wrap;
+  }
+  .s7-c {
+    margin-top: 5%;
   }
 }

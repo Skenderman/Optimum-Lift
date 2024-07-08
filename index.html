@@ -25,36 +25,46 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
   <body>
     <header id="header">
       <div class="container navbar">
-        <h2><i class="fa-solid fa-dumbbell"></i> Optimum Lift</h2>
+        <a href="index.html"
+          ><h2><i class="fa-solid fa-dumbbell"></i> Optimum Lift</h2></a
+        >
         <ul class="navbar-ul">
-          <li class="navbar-list"><a href="#">Home</a></li>
-          <li class="navbar-list"><a href="#">Learn More</a></li>
-          <li class="navbar-list"><a href="#">Testimonials</a></li>
-          <li class="navbar-list"><a href="#">FAQ</a></li>
-          <li class="navbar-list"><a href="#">About Us</a></li>
-          <li class="navbar-list"><a href="#">Contact Us</a></li>
+          <li class="navbar-list"><a href="index.html">Home</a></li>
+          <li class="navbar-list"><a href="learn-more.html">Learn More</a></li>
+          <li class="navbar-list"><a href="#reviews">Testimonials</a></li>
+          <li class="navbar-list"><a href="#faq">FAQ</a></li>
+          <li class="navbar-list"><a href="#about-us">About Us</a></li>
+          <li class="navbar-list"><a href="contact-us.html">Contact Us</a></li>
         </ul>
         <button class="shop-now">
           <i class="fa-solid fa-cart-shopping"></i>
-          Shop Now
+          <a href="checkout.html">Shop Now</a>
         </button>
         <div id="hamburger-wrapper">
           <button class="shop-now-mobile">
-            <i class="fa-solid fa-cart-shopping"></i>
+            <a href="checkout.html">
+              <i class="fa-solid fa-cart-shopping"></i
+            ></a>
           </button>
           <div class="hamburger">
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
             <ul class="nav-bar-mobile">
-              <li class="nav-mobile"><a href="#">Home</a></li>
-              <li class="nav-mobile"><a href="#">Learn More</a></li>
-              <li class="nav-mobile"><a href="#">Testimonials</a></li>
-              <li class="nav-mobile"><a href="#">FAQ</a></li>
-              <li class="nav-mobile"><a href="#">About Us</a></li>
-              <li class="nav-mobile"><a href="#">Contact Us</a></li>
+              <li class="nav-mobile"><a href="index.html">Home</a></li>
+              <li class="nav-mobile">
+                <a href="learn-more.html">Learn More</a>
+              </li>
+              <li class="nav-mobile"><a href="#reviews">Testimonials</a></li>
+              <li class="nav-mobile"><a href="#faq">FAQ</a></li>
+              <li class="nav-mobile"><a href="#about-us">About Us</a></li>
+              <li class="nav-mobile">
+                <a href="contact-us.html">Contact Us</a>
+              </li>
               <li class="nav-mobile menu-shop">
-                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="checkout.html"
+                  ><i class="fa-solid fa-cart-shopping"></i
+                ></a>
               </li>
             </ul>
           </div>
@@ -82,9 +92,17 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
             <i class="fa-solid fa-minus"></i> Pointers and advice on how to
             perform each exercise
           </p>
+          <div class="price">
+            <p class="original-price">79.99$</p>
+            <h2>39.99$</h2>
+          </div>
           <div class="hero-btns">
-            <button class="blue hero-btn1">Buy Now</button>
-            <button class="light-blue hero-btn2">Learn More</button>
+            <a href="checkout.html">
+              <button class="blue hero-btn1">Buy Now</button></a
+            >
+            <a href="learn-more.html"
+              ><button class="light-blue hero-btn2">Learn More</button></a
+            >
           </div>
         </div>
       </div>
@@ -94,7 +112,8 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         <div class="s1-t">
           <h2>Three Distinct Phases</h2>
           <p class="gray-txt">
-            Designed for learning, hypertrophy and strength respectively
+            You can cycle each phase for as long as you like, depending on your
+            goals
           </p>
         </div>
         <div class="s1-c-w">
@@ -108,7 +127,9 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
               with gradual increase in complexity to help prepare for the more
               advanced and intricate exercises & workouts.
             </p>
-            <button class="light-blue">Learn More</button>
+            <a href="learn-more.html">
+              <button class="light-blue">Learn More</button></a
+            >
           </div>
           <div class="s1-c">
             <h3>Hypertrophic Phase</h3>
@@ -119,7 +140,9 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
               movements. Each week is formulated to initiate protein synthesis
               every 48 hours for maximal muscle building.
             </p>
-            <button class="light-blue">Learn More</button>
+            <a href="learn-more.html">
+              <button class="light-blue">Learn More</button></a
+            >
           </div>
           <div class="s1-c">
             <h3>Strength Phase</h3>
@@ -131,12 +154,13 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
               is not recomended to start this phase if you haven't finished the
               previous phases, as it is very high intensity.
             </p>
-            <button class="light-blue">Learn More</button>
+            <a href="learn-more.html">
+              <button class="light-blue">Learn More</button></a
+            >
           </div>
         </div>
         <p class="gray-txt" id="cycle">
-          You can cycle each phase for as long as you like, depending on your
-          goals
+          Designed for learning, hypertrophy and strength respectively
         </p>
       </div>
     </section>
@@ -198,11 +222,11 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
       <div class="container">
         <div class="s4-t">
           <h2>Start Your 10 Week Journey Now</h2>
-          <button class="blue">Buy Now</button>
+          <a href="checkout.html"> <button class="blue">Buy Now</button></a>
         </div>
       </div>
     </section>
-    <section class="section">
+    <section class="section" id="reviews">
       <div class="container">
         <div class="s5-t">
           <h2>What our clients say</h2>
@@ -313,8 +337,51 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
           </div>
         </div>
       </div>
+      <section class="section" id="about-us">
+        <div class="container">
+          <div class="s7-t">
+            <h2>About Us</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque cum
+              tenetur tempora provident, voluptate enim?
+            </p>
+          </div>
+          <div class="s7-c-w">
+            <div class="s7-c">
+              <img src="./img/brilant.png" alt="" />
+              <h3>Brilant Krasniqi</h3>
+              <p>Founder</p>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Reiciendis laborum blanditiis dolore inventore eum nesciunt?
+              </p>
+              <div class="socials">
+                <a href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+              </div>
+            </div>
+            <div class="s7-c">
+              <img src="./img/dren.jpg" alt="" />
+              <h3>Dren Bytyqi</h3>
+              <p>Co-Founder</p>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Reiciendis laborum blanditiis dolore inventore eum nesciunt?
+              </p>
+              <div class="socials">
+                <a href="#"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </section>
-    <section class="section">
+    <section class="section" id="faq">
       <div class="container">
         <h2 class="faq-h">Frequently Asked Questions</h2>
         <div class="accordion-wrapper">
@@ -373,20 +440,6 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         </div>
       </div>
     </section>
-    <!-- <section class="section">
-      <div class="container">
-        <div class="s7-t">
-          <h2>About Us</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque cum
-            tenetur tempora provident, voluptate enim?
-          </p>
-        </div>
-        <div class="s7-c-w">
-          <div class="s7-c"></div>
-        </div>
-      </div>
-    </section> -->
     <footer class="section footer">
       <div class="container sFin">
         <div>
